@@ -4035,7 +4035,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "CONN HEADER VERT 2POS 2.54MM"
 			(at 203.2 151.1299 0)
 			(effects
 				(font
@@ -4323,7 +4323,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "CONN HEADER VERT 2POS 2.54MM"
 			(at 250.19 157.4799 0)
 			(effects
 				(font
@@ -5773,7 +5773,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "CONN HEADER VERT 3POS 2.54MM"
 			(at 242.57 140.9699 0)
 			(effects
 				(font

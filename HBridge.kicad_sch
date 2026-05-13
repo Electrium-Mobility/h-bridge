@@ -2205,6 +2205,16 @@
 		)
 		(uuid "9eedafbe-1a84-4839-a668-58463808a40d")
 	)
+	(text "Power Connector"
+		(exclude_from_sim no)
+		(at 233.68 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f547ff17-f0ad-403b-a04c-a01b0cb55579")
+	)
 	(text "H Bridge"
 		(exclude_from_sim no)
 		(at 239.014 132.588 0)
@@ -2430,16 +2440,6 @@
 			(type default)
 		)
 		(uuid "1924ee4d-d7ca-420a-94a5-e643c304dae5")
-	)
-	(wire
-		(pts
-			(xy 80.01 69.85) (xy 82.55 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b3012d6-7be0-4257-8510-1891efe1c78c")
 	)
 	(wire
 		(pts
@@ -5258,7 +5258,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 69.85 0)
+		(at 80.01 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5267,7 +5267,7 @@
 		(fields_autoplaced yes)
 		(uuid "7763e8ba-5b1c-4942-bad9-6a266ec337b8")
 		(property "Reference" "#PWR013"
-			(at 82.55 76.2 0)
+			(at 80.01 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5276,7 +5276,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 74.93 0)
+			(at 80.01 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5284,7 +5284,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 69.85 0)
+			(at 80.01 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,7 +5293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 69.85 0)
+			(at 80.01 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5302,7 +5302,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 69.85 0)
+			(at 80.01 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
